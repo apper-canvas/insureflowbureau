@@ -171,11 +171,11 @@ const MyPolicies = () => {
         )}
 
         {/* Quick Actions */}
-        <div className="mt-12 bg-white rounded-lg shadow-card border border-surface-200 p-6">
+<div className="mt-12 bg-white rounded-lg shadow-card border border-surface-200 p-6">
           <h2 className="text-xl font-display font-bold text-surface-900 mb-4">
             Quick Actions
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <Button 
               variant="outline" 
               onClick={() => navigate('/claims')}
@@ -183,6 +183,14 @@ const MyPolicies = () => {
             >
               <ApperIcon name="FileText" className="w-5 h-5" />
               <span>File a Claim</span>
+            </Button>
+            <Button 
+              variant="outline"
+              onClick={() => navigate('/payments')}
+              className="flex items-center justify-center space-x-2 h-12"
+            >
+              <ApperIcon name="CreditCard" className="w-5 h-5" />
+              <span>Payment History</span>
             </Button>
             <Button 
               variant="outline"

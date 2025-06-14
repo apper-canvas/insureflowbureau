@@ -6,6 +6,7 @@ import Support from '@/components/pages/Support'
 import PolicyDetails from '@/components/pages/PolicyDetails'
 import PurchaseFlow from '@/components/pages/PurchaseFlow'
 import ComparisonTable from '@/components/pages/ComparisonTable'
+import PaymentHistory from '@/components/pages/PaymentHistory'
 
 export const routes = {
   products: {
@@ -57,13 +58,20 @@ export const routes = {
     path: '/purchase',
 component: PurchaseFlow,
     hideFromNav: true
-  },
+},
   compare: {
     id: 'compare',
     label: 'Compare Plans',
     path: '/compare',
     component: ComparisonTable,
     hideFromNav: true
+  },
+  payments: {
+    id: 'payments',
+    label: 'Payments',
+    path: '/payments',
+    icon: 'CreditCard',
+    component: PaymentHistory
   }
 }
 

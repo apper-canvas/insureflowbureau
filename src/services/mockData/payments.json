@@ -1,0 +1,156 @@
+{
+  "paymentHistory": [
+    {
+      "id": "pay_001",
+      "userId": "user1",
+      "policyId": "POL001",
+      "policyNumber": "HP-2024-001",
+      "policyName": "Comprehensive Health Insurance",
+      "amount": 25000,
+      "method": "Credit Card",
+      "methodDetails": "****4532",
+      "date": "2024-01-15T10:30:00Z",
+      "status": "completed",
+      "transactionId": "TXN_HP001_240115",
+      "type": "premium"
+    },
+    {
+      "id": "pay_002",
+      "userId": "user1",
+      "policyId": "POL002",
+      "policyNumber": "AP-2024-002",
+      "policyName": "Comprehensive Auto Insurance",
+      "amount": 18500,
+      "method": "UPI",
+      "methodDetails": "Google Pay",
+      "date": "2024-02-20T14:45:00Z",
+      "status": "completed",
+      "transactionId": "TXN_AP002_240220",
+      "type": "premium"
+    },
+    {
+      "id": "pay_003",
+      "userId": "user1",
+      "policyId": "POL003",
+      "policyNumber": "TP-2024-003",
+      "policyName": "International Travel Insurance",
+      "amount": 3500,
+      "method": "Debit Card",
+      "methodDetails": "****7890",
+      "date": "2024-03-10T09:15:00Z",
+      "status": "completed",
+      "transactionId": "TXN_TP003_240310",
+      "type": "premium"
+    },
+    {
+      "id": "pay_004",
+      "userId": "user1",
+      "policyId": "POL001",
+      "policyNumber": "HP-2024-001",
+      "policyName": "Comprehensive Health Insurance",
+      "amount": 25000,
+      "method": "Credit Card",
+      "methodDetails": "****4532",
+      "date": "2023-12-15T10:30:00Z",
+      "status": "completed",
+      "transactionId": "TXN_HP001_231215",
+      "type": "premium"
+    },
+    {
+      "id": "pay_005",
+      "userId": "user1",
+      "policyId": "POL002",
+      "policyNumber": "AP-2024-002",
+      "policyName": "Comprehensive Auto Insurance",
+      "amount": 18500,
+      "method": "UPI",
+      "methodDetails": "PhonePe",
+      "date": "2023-11-20T16:20:00Z",
+      "status": "completed",
+      "transactionId": "TXN_AP002_231120",
+      "type": "premium"
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": "pm_001",
+      "userId": "user1",
+      "type": "card",
+      "cardType": "visa",
+      "last4": "4532",
+      "expiryMonth": "12",
+      "expiryYear": "2027",
+      "cardholderName": "John Doe",
+      "isDefault": true,
+      "nickname": "Primary Visa"
+    },
+    {
+      "id": "pm_002",
+      "userId": "user1",
+      "type": "card",
+      "cardType": "mastercard",
+      "last4": "7890",
+      "expiryMonth": "08",
+      "expiryYear": "2026",
+      "cardholderName": "John Doe",
+      "isDefault": false,
+      "nickname": "Backup Card"
+    },
+    {
+      "id": "pm_003",
+      "userId": "user1",
+      "type": "upi",
+      "upiId": "john.doe@okaxis",
+      "provider": "Google Pay",
+      "isDefault": false,
+      "nickname": "Google Pay"
+    },
+    {
+      "id": "pm_004",
+      "userId": "user1",
+      "type": "upi",
+      "upiId": "johndoe@ybl",
+      "provider": "PhonePe",
+      "isDefault": false,
+      "nickname": "PhonePe"
+    }
+  ],
+  "upcomingPayments": [
+    {
+      "id": "upcoming_001",
+      "userId": "user1",
+      "policyId": "POL001",
+      "policyNumber": "HP-2024-001",
+      "policyName": "Comprehensive Health Insurance",
+      "amount": 25000,
+      "dueDate": "2024-12-15T23:59:59Z",
+      "type": "premium",
+      "status": "pending",
+      "reminderSent": false
+    },
+    {
+      "id": "upcoming_002",
+      "userId": "user1",
+      "policyId": "POL002",
+      "policyNumber": "AP-2024-002",
+      "policyName": "Comprehensive Auto Insurance",
+      "amount": 18500,
+      "dueDate": "2024-12-20T23:59:59Z",
+      "type": "premium",
+      "status": "pending",
+      "reminderSent": true
+    },
+    {
+      "id": "upcoming_003",
+      "userId": "user1",
+      "policyId": "POL004",
+      "policyNumber": "LI-2024-004",
+      "policyName": "Term Life Insurance",
+      "amount": 12000,
+      "dueDate": "2024-12-28T23:59:59Z",
+      "type": "premium",
+      "status": "pending",
+      "reminderSent": false
+    }
+  ]
+}
