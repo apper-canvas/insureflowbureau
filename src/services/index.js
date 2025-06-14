@@ -1,4 +1,4 @@
-export { userService } from './api/userService'
+export { default as userService } from './api/userService'
 export { policyService } from './api/policyService'
 import quoteServiceDefault from './api/quoteService'
 export { quoteServiceDefault as quoteService }

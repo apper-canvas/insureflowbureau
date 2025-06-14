@@ -63,5 +63,7 @@ class UserService {
     return true
   }
 }
+const userService = new UserService()
 
-export default new UserService()
+export { userService }
+export default userService
