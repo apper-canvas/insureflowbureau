@@ -26,8 +26,12 @@ const ProductCard = ({ product, index }) => {
     }).format(amount)
   }
 
-  const handleGetQuote = () => {
+const handleGetQuote = () => {
     navigate(`/quote/${product.type}`)
+  }
+
+  const handleCompare = () => {
+    navigate('/compare', { state: { preSelectedProduct: product } })
   }
 
   return (

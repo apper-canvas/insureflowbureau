@@ -100,8 +100,12 @@ const Products = () => {
     ? insuranceProducts 
     : insuranceProducts.filter(product => product.type === selectedCategory)
 
-  const handleGetStarted = () => {
+const handleGetStarted = () => {
     navigate('/quote')
+  }
+
+  const handleCompare = () => {
+    navigate('/compare')
   }
 
   return (
@@ -139,7 +143,8 @@ const Products = () => {
                 Get Started
                 <ApperIcon name="ArrowRight" className="w-5 h-5 ml-2" />
               </Button>
-              <Button 
+<Button 
+                onClick={handleCompare}
                 variant="secondary" 
                 size="lg"
               >

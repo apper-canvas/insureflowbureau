@@ -5,6 +5,7 @@ import Claims from '@/components/pages/Claims'
 import Support from '@/components/pages/Support'
 import PolicyDetails from '@/components/pages/PolicyDetails'
 import PurchaseFlow from '@/components/pages/PurchaseFlow'
+import ComparisonTable from '@/components/pages/ComparisonTable'
 
 export const routes = {
   products: {
@@ -54,7 +55,14 @@ export const routes = {
     id: 'purchase',
     label: 'Purchase',
     path: '/purchase',
-    component: PurchaseFlow,
+component: PurchaseFlow,
+    hideFromNav: true
+  },
+  compare: {
+    id: 'compare',
+    label: 'Compare Plans',
+    path: '/compare',
+    component: ComparisonTable,
     hideFromNav: true
   }
 }
