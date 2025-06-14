@@ -1,0 +1,32 @@
+[
+  {
+    "id": "QTE001",
+    "policyType": "health",
+    "coverageAmount": 300000,
+    "duration": 12,
+    "premium": 8500,
+    "timestamp": "2024-01-10T10:30:00Z",
+    "age": 28,
+    "smoker": false
+  },
+  {
+    "id": "QTE002",
+    "policyType": "auto",
+    "coverageAmount": 600000,
+    "duration": 12,
+    "premium": 15000,
+    "timestamp": "2024-01-12T14:15:00Z",
+    "vehicleAge": 3,
+    "city": "Mumbai"
+  },
+  {
+    "id": "QTE003",
+    "policyType": "travel",
+    "coverageAmount": 50000,
+    "duration": 1,
+    "premium": 1200,
+    "timestamp": "2024-01-15T09:45:00Z",
+    "destination": "Europe",
+    "travelers": 2
+  }
+]

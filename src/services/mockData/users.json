@@ -1,0 +1,47 @@
+[
+  {
+    "id": "USR001",
+    "name": "Rajesh Kumar",
+    "email": "rajesh.kumar@email.com",
+    "phone": "+91 9876543210",
+    "policies": ["POL001", "POL002", "POL004"],
+    "address": {
+      "street": "123 MG Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipCode": "560001"
+    },
+    "dateOfBirth": "1985-05-15",
+    "occupation": "Software Engineer"
+  },
+  {
+    "id": "USR002",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@email.com",
+    "phone": "+91 9876543211",
+    "policies": ["POL003"],
+    "address": {
+      "street": "456 Park Street",
+      "city": "Delhi",
+      "state": "Delhi",
+      "zipCode": "110001"
+    },
+    "dateOfBirth": "1990-08-22",
+    "occupation": "Marketing Manager"
+  },
+  {
+    "id": "USR003",
+    "name": "Amit Patel",
+    "email": "amit.patel@email.com",
+    "phone": "+91 9876543212",
+    "policies": [],
+    "address": {
+      "street": "789 Commercial Street",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "zipCode": "400001"
+    },
+    "dateOfBirth": "1988-12-10",
+    "occupation": "Business Analyst"
+  }
+]

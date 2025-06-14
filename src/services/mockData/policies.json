@@ -1,0 +1,94 @@
+[
+  {
+    "id": "POL001",
+    "type": "health",
+    "name": "Complete Health Protection",
+    "coverageAmount": 500000,
+    "premium": 12000,
+    "startDate": "2024-01-15",
+    "endDate": "2025-01-14",
+    "status": "active",
+    "policyNumber": "HP-2024-001",
+    "benefits": [
+      "Hospitalization coverage up to ₹5L",
+      "Pre & post hospitalization",
+      "Daycare procedures",
+      "Ambulance charges"
+    ],
+    "nextPremiumDate": "2024-07-15",
+    "documents": [
+      "Policy Certificate",
+      "Terms & Conditions",
+      "Claim Form"
+    ]
+  },
+  {
+    "id": "POL002",
+    "type": "auto",
+    "name": "Comprehensive Car Insurance",
+    "coverageAmount": 800000,
+    "premium": 18000,
+    "startDate": "2023-12-01",
+    "endDate": "2024-11-30",
+    "status": "active",
+    "policyNumber": "CAR-2023-102",
+    "benefits": [
+      "Own damage coverage",
+      "Third party liability",
+      "Personal accident cover",
+      "Zero depreciation"
+    ],
+    "nextPremiumDate": "2024-11-30",
+    "documents": [
+      "Policy Certificate",
+      "Registration Copy",
+      "Driving License Copy"
+    ]
+  },
+  {
+    "id": "POL003",
+    "type": "travel",
+    "name": "International Travel Plan",
+    "coverageAmount": 100000,
+    "premium": 2500,
+    "startDate": "2024-03-01",
+    "endDate": "2024-03-15",
+    "status": "expired",
+    "policyNumber": "TRV-2024-045",
+    "benefits": [
+      "Medical expenses abroad",
+      "Trip cancellation",
+      "Baggage protection",
+      "Flight delay compensation"
+    ],
+    "nextPremiumDate": null,
+    "documents": [
+      "Policy Certificate",
+      "Travel Itinerary",
+      "Passport Copy"
+    ]
+  },
+  {
+    "id": "POL004",
+    "type": "life",
+    "name": "Term Life Protection",
+    "coverageAmount": 2000000,
+    "premium": 15000,
+    "startDate": "2023-06-01",
+    "endDate": "2043-05-31",
+    "status": "active",
+    "policyNumber": "LIFE-2023-078",
+    "benefits": [
+      "Death benefit ₹20L",
+      "Accidental death benefit",
+      "Terminal illness cover",
+      "Premium waiver"
+    ],
+    "nextPremiumDate": "2024-06-01",
+    "documents": [
+      "Policy Bond",
+      "Medical Reports",
+      "Nominee Details"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "CLM001",
+    "policyId": "POL001",
+    "type": "medical",
+    "description": "Hospitalization for appendix surgery at Apollo Hospital. Total medical expenses incurred were ₹45,000 including surgery, medicines, and room charges.",
+    "amount": 45000,
+    "status": "approved",
+    "filedDate": "2024-01-20",
+    "approvedDate": "2024-01-25",
+    "settlementAmount": 45000,
+    "documents": [
+      "Medical bills",
+      "Discharge summary",
+      "Doctor's prescription"
+    ]
+  },
+  {
+    "id": "CLM002",
+    "policyId": "POL002",
+    "type": "accident",
+    "description": "Minor accident on highway resulting in front bumper damage and headlight replacement. Vehicle towed to authorized service center.",
+    "amount": 25000,
+    "status": "processing",
+    "filedDate": "2024-01-25",
+    "estimatedSettlement": 22000,
+    "documents": [
+      "Police FIR",
+      "Repair estimate",
+      "Accident photos"
+    ]
+  },
+  {
+    "id": "CLM003",
+    "policyId": "POL003",
+    "type": "baggage",
+    "description": "Lost baggage during international flight. Baggage contained personal items, electronics, and clothing worth approximately ₹8,000.",
+    "amount": 8000,
+    "status": "rejected",
+    "filedDate": "2024-03-05",
+    "rejectionReason": "Insufficient documentation provided",
+    "documents": [
+      "Airline report",
+      "Baggage receipt"
+    ]
+  },
+  {
+    "id": "CLM004",
+    "policyId": "POL001",
+    "type": "medical",
+    "description": "Emergency treatment for food poisoning at local clinic. Medicines and consultation fees included in the claim amount.",
+    "amount": 3500,
+    "status": "pending",
+    "filedDate": "2024-02-01",
+    "documents": [
+      "Medical prescription",
+      "Payment receipts"
+    ]
+  }
+]
