@@ -50,9 +50,11 @@ class ClaimService {
       throw new Error('Claim not found')
     }
     this.claims.splice(index, 1)
+this.claims.splice(index, 1)
     return true
   }
-async getByPolicyId(policyId) {
+
+  async getByPolicyId(policyId) {
     await delay(250)
     return this.claims.filter(c => c.policyId === policyId)
   }
@@ -155,4 +157,4 @@ async getByPolicyId(policyId) {
   }
 }
 
-export default new ClaimService()
+export const claimService = new ClaimService()
