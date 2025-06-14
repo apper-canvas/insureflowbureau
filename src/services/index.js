@@ -1,4 +1,4 @@
-export { policyService } from './api/policyService'
+export { default as policyService } from './api/policyService'
 export { claimService } from './api/claimService'
 export { quoteService } from './api/quoteService'
 export { comparisonService } from './api/comparisonService'
